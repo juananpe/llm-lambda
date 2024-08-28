@@ -1,6 +1,6 @@
 [project]
 name = "llm-lambda"
-version = "0.5"
+version = "0.1"
 
 readme = "README.md"
 authors = [{name = "Juanan Pereira"}]
@@ -9,7 +9,8 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-    "llm"
+    "llm",
+    "openai"
 ]
 
 [project.urls]
