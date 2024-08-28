@@ -1,6 +1,6 @@
 # llm-lambda
 
-This is a plugin for [LLM](https://llm.datasette.io/) that provides access to the [LambdaLabs API](https://docs.lambdalabs.com/) models.
+This is a plugin for [LLM](https://llm.datasette.io/) that provides access to the [LambdaLabs API](https://docs.lambdalabs.com/on-demand-cloud/using-the-lambda-chat-completions-api) models.
 
 ## Installation
 
@@ -57,7 +57,19 @@ To set up this plugin locally, first checkout the code. Then create a new virtua
 cd llm-lambda
 python3 -m venv venv
 source venv/bin/activate
+pip install .
 ```
+You can install the plugin in the llm command for testing/developing:
+
+```bash 
+llm install -e .
+```
+
+Check that it is there:
+```bash 
+llm plugins
+```
+
 
 ## License
 
