@@ -1,0 +1,22 @@
+[project]
+name = "llm-lambda"
+version = "0.5"
+
+readme = "README.md"
+authors = [{name = "Juanan Pereira"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+    "llm"
+]
+
+[project.urls]
+Homepage = "https://github.com/juananpe/llm-lambda"
+Changelog = "https://github.com/juananpe/llm-lambda/releases"
+Issues = "https://github.com/juananpe/llm-lambda/issues"
+CI = "https://github.com/juananpe/llm-lambda/actions"
+
+[project.entry-points.llm]
+lambda = "llm_lambda"
